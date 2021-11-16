@@ -1,4 +1,4 @@
-GIT_VERSION = $(shell git describe --match=NeVeRmmAkeaAatagL1k3thi5 --always --abbrev=7 --dirty || echo "unknown")
+GIT_VERSION = $(shell git describe --match=NeVeRmmAkeaAaTagSlaAhBrancHL1k3thi5 --always --abbrev=7 --dirty || echo "unknown")
 GIT_HEX = $(shell echo -n "${GIT_VERSION}" | od -A n -t x1 | sed 's/ *//g' | cut -c-16)
 
 .PHONY: version
